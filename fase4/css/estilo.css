@@ -1,0 +1,49 @@
+body{
+background-color: lightgray;
+}
+
+#container{
+width: 70%;
+width: 110px;
+margin: 0px auto;
+
+}
+
+header{
+    background-color: #E5DCC3;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+nav ul li{
+    background-color: #C7BEA2;
+list-style: 5px;
+margin: 5px;
+line-height: 20px;
+
+
+}
+section{
+    background-color:#AAA492;
+    grid-column: 1/4 ;
+    min-height: 500px;
+}
+aside{
+    background-color: #9A9483;
+    grid-column: 4/5 ;
+  
+}
+footer{
+    background-color: #41403e;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    line-height: 20px;
+    list-style: 5px;
+    margin: 5px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
